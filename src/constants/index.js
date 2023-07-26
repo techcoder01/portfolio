@@ -5,6 +5,8 @@ import {
   web,
   javascript,
   typescript,
+  ui,
+  dart,
   html,
   css,
   reactjs,
@@ -12,17 +14,22 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  jawanpk,
+  panaverse,
   git,
   figma,
   docker,
   meta,
   starbucks,
   tesla,
+  food,
   shopify,
   carrent,
   jobit,
+  portfolio,
   tripguide,
   threejs,
+  flutter,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +49,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Flutter Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Dart Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "JavaScript & Typescript Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Node Js & Firebase",
     icon: creator,
   },
 ];
@@ -77,94 +84,44 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+    name: "Flutter",
+    icon: flutter,
+  },  
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+    name: "Dart",
+    icon: dart,
+  },  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "JavaScript , TypeScript & NodeJs",
+    company_name: "Piaic , Panaverse",
+    icon: panaverse,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sept 2022 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a JavaScript, TypeScript, and Node.js developer," , 
+      "I specialize in programming with JavaScript, TypeScript, and Node.js.",
+      "Implementing efficient and scalable code for various projects." ,
+       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Flutter & Dart Developer",
+    company_name: "Jawan Pakistan",
+    icon: jawanpk,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+    date: "March 2023 - July 2023",
+    "points": [
+      "Developing and maintaining mobile applications using Flutter, Dart, and Firebase.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing responsive design and ensuring cross-platform compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers."
     ],
   },
 ];
@@ -172,7 +129,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a apps as beautiful as our product, but Abdul Hannan proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +137,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a app developer who truly cares about their clients' success like Abdul Hannan does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +145,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Abdul Hannan optimized our apps, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,66 +155,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Food Delivery App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "App-based platform that allows users to browse, order, and manage food deliveries from multiple restaurants, providing a convenient and efficient solution for satisfying their hunger cravings.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "dart",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Laravel",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: food,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Flutter Web Portfolio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web-based portfolio application developed using Flutter & Dart , showcase of my skills, projects, and experiences using Flutter for interactive and visually appealing presentation.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "dart",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/techcoder01/protfolio",
   },
   {
-    name: "Trip Guide",
+    name: "Flutter Animation & UI's",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Experience mesmerizing animations and beautiful UI designs using Flutter & Dart . Unleash your creativity with Flutter's powerful toolkit and explore an immersive development journey. ",
     tags: [
       {
-        name: "nextjs",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "dart",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
+    image: ui,
     source_code_link: "https://github.com/",
   },
 ];

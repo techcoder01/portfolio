@@ -12,6 +12,8 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import flutter from "./tech/flutter.png";
+import dart from "./tech/dart.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -22,11 +24,16 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
+import panaverse from "./company/panaverse.png";
+import jawanpk from "./company/jawanpk.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import portfolio from "./portfolio.png";
+import ui from "./ui.png";
+import food from "./food.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -34,7 +41,14 @@ export {
   logo,
   backend,
   creator,
+  flutter,
+  panaverse,
+  jawanpk,
+  dart,
+  portfolio,
   mobile,
+  ui,
+  food,
   web,
   github,
   menu,
